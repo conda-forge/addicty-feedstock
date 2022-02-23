@@ -1,5 +1,5 @@
 {% set name = "addicty" %}
-{% set version = "2021.7.0" %}
+{% set version = "2022.2.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/addicty-{{ version }}.tar.gz
-  sha256: 2130085feb3e8b2965bc3122cd8638dcd4dc906fe86481559b92ad10e3967c6d
+  sha256: c108fb3f309b14286859130271b76e9044dc051ca3e00d6205f1a5b9ccee8ab3
 
 build:
   number: 0
@@ -19,6 +19,7 @@ requirements:
   host:
     - pip
     - python >=3.7
+    - setuptools-scm
   run:
     - python >=3.7
     - pyyaml
