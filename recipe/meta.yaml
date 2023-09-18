@@ -1,5 +1,5 @@
 {% set name = "addicty" %}
-{% set version = "2022.2.1" %}
+{% set version = "2023.9.3" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/addicty-{{ version }}.tar.gz
-  sha256: c108fb3f309b14286859130271b76e9044dc051ca3e00d6205f1a5b9ccee8ab3
+  sha256: dcd4f39c9127c9ca0489d752367aa87f961d22581ab4252b1c3fa111ca2edf8f
 
 build:
   number: 0
